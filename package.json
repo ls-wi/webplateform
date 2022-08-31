@@ -8,7 +8,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "predeploy": "nuxt generate",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d docs",
     "test": "jest"
   },
   "dependencies": {
