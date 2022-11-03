@@ -4,7 +4,7 @@
         <img src="../src/logo.jpg"/>
 
         <a href="#" class="contact">Contact us</a>
-        <a href="#">About us</a>
+        <a href="#" >About us</a>
         <a href="#">Services</a>
         <a href="#">Home</a>
     </div>
