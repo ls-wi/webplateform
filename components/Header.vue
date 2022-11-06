@@ -1,12 +1,18 @@
 <template>
-    <div class="nav">
+    <div class="px-0">
 
-        <img src="../src/logo.jpg"/>
+        <img class="w-[305px] h-[263px] float-left" src="../src/logo.jpg"/>
 
-        <a href="#" class="contact">Contact us</a>
-        <a href="#" >About us</a>
-        <a href="#">Services</a>
-        <a href="#">Home</a>
+        <div class="px-10 py-32 float-right text-[18px] space-x-24 font-medium mr-24">
+            
+            <a href="#" >Home</a>
+            <a href="#" >Services</a>
+            <a href="#" >About us</a>
+            <div class="bg-[#FBB811] inline">
+                <a href="#" >Contact us</a>
+            </div>
+
+        </div>
     </div>
 </template>
 
@@ -15,24 +21,3 @@ export default{
     name:'Header'
 }
 </script>
-
-<style>
-.nav{
-    background-color:white;
-    margin-right: 150px;
-}
-.nav a{
-    float: right;
-    padding: 6.5% 2.5%;
-    font-size: 18px;
-}
-.nav img{
-    float: left;
-    height: 263px;
-    width: 305px;
-}
-.nav .contact{
-    background-color: #FBB811;
-    color: white;
-}
-</style>
