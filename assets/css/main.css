@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .logo{
-    @apply w-[305px] h-[263px] float-left
+    @apply h-2/6 w-2/6 float-left ml-5 hover:animate-pulse
 }
 
 .nav{
