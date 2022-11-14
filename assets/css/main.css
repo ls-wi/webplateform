@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.logo{
+    @apply w-[305px] h-[263px] float-left
+}
+
+.nav{
+    @apply p-5 flex items-center justify-between
+}
+
+.contact{
+    @apply bg-[#FBB811] text-white duration-500 px-6 py-2 mx-16 hover:bg-[#D8DADE] rounded 
+}
+
+.sections{
+    @apply flex items-center static bg-white w-auto pl-7
+}
+
+.link{
+    @apply mx-16 text-xl hover:text-[#FBB811] duration-500
+}

@@ -1,19 +1,26 @@
 <template>
-    <div class="px-0">
-
-        <img class="w-[305px] h-[263px] float-left" src="../src/logo.jpg"/>
-
-        <div class="px-36 py-32 float-right text-[18px] space-x-24">
-            
-            <a href="#" >Home</a>
-            <a href="#" >Services</a>
-            <a href="#" >About us</a>
-            <div class="bg-[#FBB811] text-white w-[200px] h-[28px] inline-block">
-                <a href="#" class="px-14">Contact us</a>
-            </div>
-
-        </div>
+    <nav class="nav">
+    <div>
+        <img class="logo" src="../src/logo.jpg"/>
     </div>
+
+    <ul class="sections">
+      <li class="link">
+        <a href="#" >HOME</a>
+      </li>
+      <li class="link">
+        <a href="#" >SERVICES</a>
+      </li>
+      <li class="link">
+        <a href="#" >ABOUT</a>
+      </li>
+
+      <button class="contact">
+        Contact us
+      </button>
+    </ul>
+  </nav>
+
 </template>
 
 <script>
