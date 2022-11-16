@@ -3,21 +3,34 @@
 @tailwind utilities;
 
 .logo{
-    @apply h-2/6 w-2/6 float-left ml-5 hover:animate-pulse
+    @apply 
+
+    /* mid and above*/
+    max-h-44
+
+    /* small screens*/
+    m-auto
+
+
+    hover:animate-pulse
+
+    mb-8
 }
 
 .nav{
-    @apply p-5 flex items-center justify-between
+    @apply p-5 lg:flex justify-between
+
 }
 
 .contact{
-    @apply bg-[#FBB811] text-white duration-500 px-6 py-2 mx-16 hover:bg-[#D8DADE] rounded 
+    @apply bg-[#FBB811] text-white duration-500 px-6 py-2 mx-16 hover:bg-[#D8DADE] rounded text-center
 }
 
 .sections{
-    @apply flex items-center static bg-white w-auto pl-7
+    @apply lg:flex static lg:items-center bg-white w-auto grid-cols-1
 }
 
 .link{
-    @apply mx-16 text-xl hover:text-[#FBB811] duration-500
+    @apply mx-16 text-xl hover:text-[#FBB811] duration-500 lg:pb-0 pb-5 text-center
+
 }

@@ -15,9 +15,9 @@
         <a href="#" >ABOUT</a>
       </li>
 
-      <button class="contact">
-        Contact us
-      </button>
+      <li class="contact">
+        <a href="#" >Contact us</a>
+      </li>
     </ul>
   </nav>
 
