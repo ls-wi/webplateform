@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo{
+    @apply 
+
+    max-h-44
+    m-auto
+    mb-8
+    
+    hover:animate-pulse
+}
+
+.nav{
+    @apply 
+
+    p-5 
+    justify-between
+    
+    lg:flex 
+
+}
+
+.contact{
+    @apply 
+
+    bg-[#FBB811] 
+    text-white 
+    duration-500 
+    px-6 py-2 
+    mx-16 
+    rounded 
+    text-center
+
+    hover:bg-[#D8DADE]
+}
+
+.sections{
+    @apply 
+    
+    lg:flex 
+    static 
+    bg-white 
+    w-auto 
+    grid-cols-1
+
+    lg:items-center 
+    lg:flex 
+}
+
+.link{
+    @apply 
+    
+    mx-16 
+    text-xl 
+    hover:text-[#FBB811] 
+    duration-500 
+    pb-5 
+    text-center
+
+    lg:pb-0
+
+}
