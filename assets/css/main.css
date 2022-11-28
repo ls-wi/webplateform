@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "ZILLA";
+    src: url("../../src/fonts/zilla/ZillaSlab-Light.ttf");
+  }
+
 /* HEADER */
 .logo{
     @apply 
@@ -33,6 +38,9 @@
     mx-16 
     rounded 
     text-center
+    font-zilla
+    text-lg
+    
 
     hover:bg-[#D8DADE]
 }
@@ -44,6 +52,8 @@
     bg-white 
     w-auto 
     grid-cols-1
+    font-zilla
+    font-bold
 
     lg:items-center 
     lg:flex 
