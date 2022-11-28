@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* HEADER */
 .logo{
     @apply 
 
@@ -39,7 +40,6 @@
 .sections{
     @apply 
     
-    lg:flex 
     static 
     bg-white 
     w-auto 
@@ -61,4 +61,39 @@
 
     lg:pb-0
 
+}
+
+/*BANNER*/
+
+.banner{
+    @apply 
+    
+    bg-black 
+    h-auto 
+    
+    hover:bg-[#FBB811] 
+    
+    duration-1000
+}
+
+.bannerText{
+    @apply 
+
+    text-white 
+    hover:text-black
+
+    lg:text-8xl 
+    md:text-5xl 
+    text-3xl 
+    
+    overflow-auto 
+
+    pb-16 
+    pt-12 
+    m-auto 
+
+    text-center 
+    font-mono 
+
+    duration-1000 
 }

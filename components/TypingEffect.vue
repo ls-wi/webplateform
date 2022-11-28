@@ -1,9 +1,6 @@
 <template>
   <div class="container">
-    <h1>
       {<span class="typed-text">{{ typeValue }}</span>}
-      <span class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
-    </h1>
   </div>
 </template>
 
