@@ -16,7 +16,7 @@
       </li>
 
       <li class="contact">
-        <a href="#" >Contact us</a>
+        <a href="#" >CONTACT US</a>
       </li>
     </ul>
   </nav>
