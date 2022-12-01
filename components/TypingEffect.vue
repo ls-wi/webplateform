@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      {<span class="typed-text">{{ typeValue }}</span>}
+      {<span class="typed-text font-zilla">{{ typeValue }}</span>}
   </div>
 </template>
 

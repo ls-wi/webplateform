@@ -78,19 +78,15 @@
 .banner{
     @apply 
     
-    bg-black 
     h-auto 
     
-    hover:bg-[#FBB811] 
+    bg-[#FBB811] 
     
     duration-1000
 }
 
 .bannerText{
     @apply 
-
-    text-white 
-    hover:text-black
 
     lg:text-8xl 
     md:text-5xl 
