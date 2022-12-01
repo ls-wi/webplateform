@@ -1,6 +1,6 @@
 <template>
     <div class="banner">
-        <TypeEffect class="bannerText"/>
+        <TypeEffect class="bannerText" :words="words"/>
     </div>
 </template>
 
@@ -9,6 +9,11 @@
 import TypeEffect from './TypingEffect.vue'
 export default{
     name:'Banner',
+    data() {
+      return {
+        words:['Web Development', 'Digital Marketing', 'Consulting', "Let's sail together!"]
+      }
+    },
     components:{
         TypeEffect
     }
