@@ -7,11 +7,17 @@
 <script>
 import { setTimeout } from 'timers';
   export default {
+    props: {
+      words: {
+        type:Array,
+        required:true
+      }
+    },
     data: () => {
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['Web Development', 'Digital Marketing', 'Set Sail !'],
+        typeArray: [],
         typingSpeed: 100,
         erasingSpeed: 50,
         newTextDelay: 2000,
@@ -52,6 +58,7 @@ import { setTimeout } from 'timers';
     },
     created() {
       setTimeout(this.typeText, this.newTextDelay + 200);
+      this.typeArray = this.words;
     }
   }
 </script>
