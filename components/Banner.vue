@@ -11,7 +11,7 @@ export default{
     name:'Banner',
     data() {
       return {
-        words:['Web Development', 'Digital Marketing', 'Consulting', "Let's sail together!"]
+        words:['Développement Web', 'Marketing', 'Stratégie Digitale', "Mettons les voiles !"]
       }
     },
     components:{
