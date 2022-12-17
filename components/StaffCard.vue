@@ -1,10 +1,10 @@
 <template>
-    <div class="text-center bg-[#FBB811] rounded w-2/4 m-auto  hover:scale-105 duration-1000">
-        <img class="max-h-64 m-auto rounded mt-2 p-2" src="../src/barack.jpg"/>
+    <div class="text-center bg-[#FBB811] rounded m-auto hover:scale-105 duration-1000">
+        <img class="max-h-64 m-auto rounded mt-2 p-2" :src="img"/>
 
         <div class="font-zilla ">
-            <p class="text-xl">Barack Obama</p>
-            <p class="text-lg">President</p>
+            <p class="text-2xl font-bold">{{name}}</p>
+            <p class="text-lg">{{prof}}</p>
         </div>
 
     </div>
@@ -13,6 +13,11 @@
 
 <script>
 export default{
-    name:'Staff'
+    name:'Staff',
+    props:{
+        name: String,
+        prof: String,
+        img: String,
+    }
 }
 </script>
