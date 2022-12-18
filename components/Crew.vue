@@ -20,7 +20,7 @@ export default{
     },
     data() {
         return {
-            Leith : {name:"Leith", prof:"Sales Manager", img:"_nuxt/src/barack.jpg"},
+            Leith : {name:"Leith", prof:"Sales Manager", img:"../src/barack.jpg"},
             Sakada : {name:"Sakada", prof:"Web Developer", img:"_nuxt/src/barack.jpg"},
             Sana : {name:"Sana", prof:"Digital Marketing Expert", img:"_nuxt/src/barack.jpg"},
         }

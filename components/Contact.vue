@@ -9,6 +9,7 @@
             <ul class="border-l border-black mt-5 pl-2">
                 <li>leith.chakroun@webtreasure.dev</li>
                 <li>www.webtreasure.dev</li>
+                <li><a href="https://www.linkedin.com/company/web-treasure/">LinkedIn</a></li>
             </ul>
         </div>
     </div>
