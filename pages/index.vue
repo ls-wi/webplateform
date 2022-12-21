@@ -5,6 +5,7 @@
     <Presentation/>
     <Crew/>
     <Contact/>
+    <Footer/>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Banner from '../components/Banner.vue'
 import Presentation from '../components/Presentation.vue';
 import Contact from '../components/Contact.vue';
 import Crew from '../components/Crew.vue';
+import Footer from '../components/Footer.vue';
 export default {
   name: 'IndexPage',
   components:{
@@ -22,6 +24,7 @@ export default {
     Presentation,
     Contact,
     Crew,
+    Footer,
   }
 }
 </script>
