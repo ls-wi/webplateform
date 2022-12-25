@@ -1,7 +1,7 @@
 <template>
 
     <div>
-        <p class="bg-black overflow-auto px-6 lg:px-64 text-white text-center font-zilla lg:text-xl pt-10 pb-10">
+        <p class="bg-black px-6 lg:px-64 text-white text-center font-zilla lg:text-xl pt-10 pb-10">
        
             Nous sommes Web Treasure, une agence digitale basée à Paris. 
             Notre mission est de vous fournir tous les outils nécessaires pour naviguer vers votre trésor : la réussite de votre projet digital. 
