@@ -6,14 +6,14 @@
 
             <div class="bg-[#FBB811] md:mx-10 rounded pb-2">
                 <p class="text-3xl p-3 mt-3">Design</p>
-                <ServiceCard :title="Crea.title"/>
-                <ServiceCard :title="Id.title"/>
+                <ServiceCard :title="Crea.title" :text="Crea.text"/>
+                <ServiceCard :title="Id.title" :text="Id.text"/>
             </div>
 
             <div class="bg-[#FBB811] md:mx-10 rounded pb-2">
                 <p class="text-3xl p-3 mt-3">Stratégie</p>
-                <ServiceCard :title="Seo.title"/>
-                <ServiceCard :title="Bench.title"/>
+                <ServiceCard :title="Seo.title" :text="Seo.text"/>
+                <ServiceCard :title="Bench.title" :text="Bench.text"/>
             </div>
 
         </div>
@@ -31,10 +31,10 @@ export default{
     },
     data(){
         return{
-            Seo: {title:"SEO et Réferencement Naturel", text:""},
-            Bench: {title:"Benchmarking et Analyse Concurrentielle", text:""},
-            Crea: {title:"Gestion et Creation de contenu", text:""},
-            Id: {title:"Création d'Identité Visuelle", text:""},
+            Seo: {title:"SEO et Réferencement Naturel", text:"Optimisez le référencement de votre site pour le placer parmi les premiers résultats de recherche et générer plus de visites. Le SEO est l'outil qui vous garantira un trafic constant."},
+            Bench: {title:"Benchmarking et Analyse Concurrentielle", text:"Soyez les meilleurs de votre niche et utilisez l'engoument autour de vos concurrents pour créer vous même votre propre mouvement."},
+            Crea: {title:"Gestion et Creation de contenu", text:"Votre contenu est le corps de votre marketing, il faut donc qu'il se démarque clairement et impressionne le public. Donnez vous la meilleure image possible avec un contenu parfait."},
+            Id: {title:"Création d'Identité Visuelle", text:"Démarquez vous avec un look qui transmettera les bons messages à votre public cible. L'identité visuelle est la clé pour obtenir de bonnes premières impressions."},
         }
     }
 }
