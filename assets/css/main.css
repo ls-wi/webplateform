@@ -79,7 +79,7 @@
     
     h-auto 
     
-    bg-[#FBB811] 
+    bg-dgrey 
     
     duration-1000
 }
@@ -101,4 +101,5 @@
     font-mono 
 
     duration-1000 
+    text-yellow
 }

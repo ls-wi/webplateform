@@ -1,8 +1,8 @@
 <template>
-    <div class="bg-black p-10 mt-5 lg:w-3/4 m-auto rounded">
+    <div class="bg-lgrey p-10 mt-5 lg:w-3/4 m-auto rounded">
         <p class="text-center bg-[#FBB811] w-min m-auto p-1 text-4xl font-zilla">L'équipage</p>
-        <p class="text-white text-center text-xl font-zilla mt-5">Une equipe d'experts avec une seule détermination : mener votre projet digital à sa réussite</p>
-        <div class=" md:grid md:grid-cols-3 mt-10">
+        <p class=" text-center text-xl font-zilla mt-5">Une equipe d'experts avec une seule détermination : mener votre projet digital à sa réussite</p>
+        <div class=" md:grid md:grid-cols-3 mt-10 bg-dgrey p-3 rounded">
             <StaffCard :name="Leith.name" :prof="Leith.prof" :img="Leith.img"/>
             <StaffCard :name="Sakada.name" :prof="Sakada.prof" :img="Sakada.img"/>
             <StaffCard :name="Sana.name" :prof="Sana.prof" :img="Sana.img"/>
