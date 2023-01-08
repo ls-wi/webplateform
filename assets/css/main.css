@@ -48,14 +48,21 @@
     @apply 
     
     static 
-    bg-white 
+    bg-lgrey
+    rounded
+
     w-auto 
+    lg:m-5
+    mr-0
+    p-2
+
     grid-cols-1
     font-zilla
     font-bold
 
     lg:items-center 
     lg:flex 
+
 }
 
 .link{
