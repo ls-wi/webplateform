@@ -9,14 +9,14 @@
         <a href="#" >ACCEUIL</a>
       </li>
       <li class="link">
-        <a href="#" >SERVICES</a>
+        <a href="#servmark" >SERVICES</a>
       </li>
       <li class="link">
-        <a href="#" >A PROPOS</a>
+        <a href="#pres" >A PROPOS</a>
       </li>
 
       <li class="contact">
-        <a href="#" >CONTACTEZ NOUS</a>
+        <a href="#contact" >CONTACTEZ NOUS</a>
       </li>
     </ul>
   </nav>
