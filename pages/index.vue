@@ -3,6 +3,7 @@
     <Header/>
     <Banner/>
     <Presentation/>
+    <ServicesWeb/>
     <ServicesMarketing/>
     <Crew/>
     <Contact/>
@@ -18,6 +19,8 @@ import Contact from '../components/Contact.vue';
 import Crew from '../components/Crew.vue';
 import Footer from '../components/Footer.vue';
 import ServicesMarketing from '../components/ServicesMarketing.vue';
+import ServicesWeb from '../components/ServicesWeb.vue'
+
 export default {
   name: 'IndexPage',
   components:{
@@ -28,6 +31,7 @@ export default {
     Crew,
     Footer,
     ServicesMarketing,
+    ServicesWeb,
   }
 }
 </script>
