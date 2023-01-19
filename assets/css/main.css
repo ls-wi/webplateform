@@ -111,5 +111,17 @@
     text-yellow
 }
 
+/* web dev steps */
+
+.etapes {
+    @apply
+
+    text-3xl 
+    font-bold 
+    odd:float-right
+    even:float-left
+    p-5
+}
+
 /*scroll animations*/
 
