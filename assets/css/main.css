@@ -116,10 +116,14 @@
 .etapes {
     @apply
 
-    text-3xl 
-    font-bold 
-    odd:float-right
-    even:float-left
+    lg:text-3xl
+    md:text-2xl
+    text-xl 
+    font-bold
+    m-auto
+    even:hover:-translate-x-3.5
+    odd:hover:translate-x-3.5
+    duration-500
     p-5
 }
 
