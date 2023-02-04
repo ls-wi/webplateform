@@ -1,8 +1,10 @@
 <template>
   <div>
-    <Header/>
-    <Banner/>
-    <Presentation/>
+    <div class="lg:h-screen lg:grid lg:grid-cols-1">
+      <Header/>
+      <Banner/>
+      <Presentation/>
+    </div>
     <ServicesWeb/>
     <ServicesMarketing/>
     <Crew/>

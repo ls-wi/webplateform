@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:w-1/2 text-center bg-white my-3 rounded m-auto hover:scale-105 duration-1000">
+    <div class="lg:w-1/2 text-center bg-lgrey my-3 rounded m-auto hover:scale-105 duration-1000">
         <img class="max-h-64 m-auto rounded mt-2 p-2" src="../src/barack.jpg" /> <!-- </img>:src="img"/>-->
 
         <div class="font-zilla ">
