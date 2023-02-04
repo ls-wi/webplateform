@@ -128,5 +128,40 @@
     p-5
 }
 
+/*Services Marketing*/
+
+.categorie{
+    @apply
+
+    text-5xl
+    my-10
+
+}
+
+.serviceTitre{
+    @apply
+
+    text-center
+    text-3xl
+    my-5
+
+}
+
+.serviceTexte{
+    @apply
+
+    text-center
+    text-xl
+    hidden
+    duration-1000
+}
+
+.serviceContainer {
+    @apply
+
+    text-center
+
+}
+
 /*scroll animations*/
 
