@@ -9,7 +9,7 @@
         <a href="#" >ACCEUIL</a>
       </li>
       <li class="link">
-        <a href="#servmark" >SERVICES</a>
+        <a href="#servweb" >SERVICES</a>
       </li>
       <li class="link">
         <a href="#pres" >A PROPOS</a>

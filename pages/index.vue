@@ -3,12 +3,12 @@
     <div class="lg:h-screen lg:grid lg:grid-cols-1">
       <Header/>
       <Banner/>
-      <Presentation/>
+      <Presentation id="pres"/>
     </div>
-    <ServicesWeb/>
+    <ServicesWeb id="servweb"/>
     <ServicesMarketing/>
-    <Crew/>
-    <Contact/>
+    <Crew id="crew"/>
+    <Contact id="contact"/>
     <Footer/>
   </div>
 </template>
