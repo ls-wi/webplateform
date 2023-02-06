@@ -23,6 +23,9 @@ module.exports = {
 
       width:{
         '3/2': '150%'
+      },
+      height:{
+        'same' : 'same-as-width'
       }
     },
     screens: {
