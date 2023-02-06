@@ -19,7 +19,7 @@
 
         </div>
         <div class="lg:w-1/2 text-center bg-lgrey my-3 rounded m-auto hover:scale-105 duration-1000">
-            <img class="max-h-64 m-auto rounded-full mt-2 p-2" src="../src/barack.jpg"/> <!-- :src="img"/>--> 
+            <img class="max-h-64 m-auto rounded-full mt-2 p-2" src="../src/sana.jpg"/> <!-- :src="img"/>--> 
 
             <div class="font-zilla mt-5">
                 <p class="text-2xl font-bold bg-yellow w-min m-auto p-1">Sana</p>
