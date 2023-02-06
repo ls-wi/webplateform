@@ -12,7 +12,7 @@
         </p>
         
         <div class="">
-            <ul class="grid grid-cols-2 lg:w-4/5 mx-auto bg-lgrey text-center">
+            <ul class="grid grid-cols-2 lg:w-4/5 mx-auto bg-lgrey text-center pb-3">
                 <a href="#contact" class="bg-dgrey text-white duration-500 hover:bg-yellow hover:text-black rounded font-zilla my-auto md:mx-32 mx-6 p-3 text-xl">Nous contacter</a>
                 <a href="#crew" class="bg-dgrey text-white duration-500 hover:bg-yellow hover:text-black rounded font-zilla my-auto md:mx-32 mx-6 p-3 text-xl">L'équipage</a>
                 
