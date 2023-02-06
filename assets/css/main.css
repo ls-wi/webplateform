@@ -135,6 +135,9 @@
 
     text-5xl
     my-10
+    border-b-2 border-dgrey
+    p-3
+
 
 }
 
@@ -144,6 +147,9 @@
     text-center
     text-3xl
     my-5
+    bg-dgrey
+    text-white
+    rounded
 
 }
 
