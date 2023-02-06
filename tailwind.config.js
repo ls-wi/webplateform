@@ -20,6 +20,13 @@ module.exports = {
       fontFamily: {
         zilla: ["ZILLA", "cursive"],
       },
+
+      width:{
+        '3/2': '150%'
+      },
+      height:{
+        'same' : 'same-as-width'
+      }
     },
     screens: {
       'sm': '640px',

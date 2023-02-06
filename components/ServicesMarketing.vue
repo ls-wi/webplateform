@@ -1,17 +1,17 @@
 <template>
 
-    <div class="lg:w-3/4 m-auto font-zilla bg-lgrey mt-10 rounded p-10">
+    <div class="m-auto font-zilla bg-lgrey mt-10 rounded p-10">
         <p class="text-center bg-yellow md:w-2/6 m-auto p-1 text-4xl font-zilla mb-4">Nos services Marketing Digital</p>
-        <div class="lg:grid lg:grid-cols-2 text-center m-auto">
+        <div class="w-3/4 m-auto">
 
-            <div class="bg-dgrey text-white md:mx-10 rounded pb-2">
-                <p class="text-3xl p-3 mt-3">Design</p>
+            <div class="">
+                <p class="categorie">Design</p>
                 <ServiceCard :title="Crea.title" :text="Crea.text"/>
                 <ServiceCard :title="Id.title" :text="Id.text"/>
             </div>
 
-            <div class="bg-dgrey text-white md:mx-10 rounded pb-2">
-                <p class="text-3xl p-3 mt-3">Stratégie</p>
+            <div class="">
+                <p class="categorie">Stratégie</p>
                 <ServiceCard :title="Seo.title" :text="Seo.text"/>
                 <ServiceCard :title="Bench.title" :text="Bench.text"/>
             </div>

@@ -1,7 +1,7 @@
 <template>
 
-    <div>
-        <p class="bg-lgrey px-6 lg:px-64 text-center font-zilla lg:text-xl pt-10 pb-10">
+    <div class="bg-lgrey">
+        <p class=" px-6 lg:px-64 text-center font-zilla lg:text-xl pt-10 pb-20">
        
             Nous sommes Web Treasure, une agence digitale basée à Paris. 
             Notre mission est de vous fournir tous les outils nécessaires pour naviguer vers votre trésor : la réussite de votre projet digital. 
@@ -11,12 +11,14 @@
 
         </p>
         
-        <div class="bg-lgrey pb-10">
-            <ul class="grid grid-cols-2 lg:w-4/5 mx-auto bg-lgrey text-center">
+        <div class="">
+            <ul class="grid grid-cols-2 lg:w-4/5 mx-auto bg-lgrey text-center pb-3">
                 <a href="#contact" class="bg-dgrey text-white duration-500 hover:bg-yellow hover:text-black rounded font-zilla my-auto md:mx-32 mx-6 p-3 text-xl">Nous contacter</a>
                 <a href="#crew" class="bg-dgrey text-white duration-500 hover:bg-yellow hover:text-black rounded font-zilla my-auto md:mx-32 mx-6 p-3 text-xl">L'équipage</a>
+                
             </ul>
-        </div>    
+        </div>   
+        
     
     </div>
 
