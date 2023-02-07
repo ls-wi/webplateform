@@ -2,7 +2,7 @@
 
     <div class="m-auto font-zilla bg-lgrey mt-10 rounded p-10">
         <p class="text-center bg-yellow md:w-2/6 m-auto p-1 text-4xl font-zilla mb-4">Nos services Marketing Digital</p>
-        <div class="w-3/4 m-auto">
+        <div class="md:w-3/4 m-auto">
 
             <div class="">
                 <p class="categorie">Design</p>
