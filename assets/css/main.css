@@ -10,20 +10,32 @@
 /* HEADER */
 .logo{
     @apply 
-
-    max-h-44
+    p-1
+    max-h-28
     m-auto
-    mb-8
 }
 
 .nav{
     @apply 
-
-    p-5 
+    p-4
     justify-between
-    
     lg:flex 
 
+}
+
+.nav-items {
+    @apply
+    static 
+    rounded
+
+    w-auto 
+
+    grid-cols-1
+    font-zilla
+    font-bold
+
+    lg:items-center 
+    lg:flex 
 }
 
 .contact{
@@ -42,26 +54,6 @@
     hover:bg-[#D8DADE]
 }
 
-.sections{
-    @apply 
-    
-    static 
-    bg-lgrey
-    rounded
-
-    w-auto 
-    lg:m-5
-    mr-0
-    p-2
-
-    grid-cols-1
-    font-zilla
-    font-bold
-
-    lg:items-center 
-    lg:flex 
-
-}
 
 .link{
     @apply 

@@ -4,7 +4,7 @@
         <img class="logo" src="../src/logo.jpg"/>
     </div>
 
-    <ul class="sections">
+    <ul class="nav-items">
       <li class="link">
         <a href="#" >ACCEUIL</a>
       </li>
