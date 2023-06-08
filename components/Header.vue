@@ -1,7 +1,7 @@
 <template>
     <nav class="nav">
     <div>
-        <img class="logo" src="../src/logo.jpg"/>
+        <img class="logo" src="../src/logo.jpg" alt="logo"/>
     </div>
 
     <ul class="sections">

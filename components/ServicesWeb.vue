@@ -1,28 +1,26 @@
 <template>
-    <div class="p-10 lg:w-3/4 m-auto my-10 font-zilla  rounded">
-        <p class="text-center bg-yellow w-min m-auto p-1 text-4xl mb-10">Développement Web</p>
+    <div class="py-10 m-auto my-10 font-zilla">
+        <h2 class="text-center bg-yellow w-min m-auto p-1 text-4xl mb-10">Développement Web</h2>
 
-        <div class="lg:flex grid grid-cols-1 ">
+        <div class="">
 
-            <div class=" lg:w-2/5 lg:mr-10 bg-lgrey rounded">
-                <p class="pt-5 text-center text-2xl w-52 m-auto mt-5 p-5 bg-dgrey text-white rounded">Créez votre Site Web avec Nous !</p>
-                <p class="lg:p-10 p-5 lg:text-xl text-center lg:mt-12">Avec notre équipe expérimentée de développeurs et de designers, nous créons des <span class="bg-yellow p-1">sites web professionnels, attractifs et adaptés à vos objectifs commerciaux</span>. Chaque entreprise est unique, c'est pourquoi nous offrons des solutions sur mesure pour répondre à vos besoins spécifiques. Faites confiance à Web Treasure pour créer un site web efficace qui vous permettra de <span class="bg-yellow p-1">développer votre activité en ligne</span>. Contactez-nous dès maintenant pour en savoir plus sur nos services et pour discuter de votre projet.</p>
+            <div class="bg-lgrey rounded px-10">
+                <div class="w-3/4 m-auto">
+                    <h3 class="categorie">Création de Sites Web</h3>
+                    <p class="text-lg text-center p-5 font-sans">Avec notre équipe expérimentée de développeurs et de designers, nous créons des <span class="bg-yellow p-1">sites web professionnels, attractifs et adaptés à vos objectifs commerciaux</span>. Chaque entreprise est unique, c'est pourquoi nous offrons des solutions sur mesure pour répondre à vos besoins spécifiques. Faites confiance à Web Treasure pour créer un site web efficace qui vous permettra de <span class="bg-yellow p-1">développer votre activité en ligne</span>. Contactez-nous dès maintenant pour en savoir plus sur nos services et pour discuter de votre projet.</p>
+                </div>
             </div>
 
-            <div class=" lg:w-3/5 lg:mt-0 mt-5 bg-lgrey rounded">
-                <p class="pt-5 text-center text-2xl w-52 m-auto mt-10 p-5 rounded bg-dgrey text-white">Les étapes</p>
-                <ul class="pb-28 grid grid-cols-2 h-full ">
-                    <li class="etapes text-yellow border-b-2 border-yellow">1</li>
-                    <li class="etapes bg-lgrey">Idéation</li>
-                    <li class="etapes bg-lgrey">Conception</li>
-                    <li class="etapes text-yellow border-b-2 border-yellow">2</li>
-                    <li class="etapes text-yellow border-b-2 border-yellow">3</li>
-                    <li class="etapes bg-lgrey">Design</li>
-                    <li class="etapes bg-lgrey">Développement</li>
-                    <li class="etapes text-yellow border-b-2 border-yellow">4</li>
-                    <li class="etapes text-yellow border-b-2 border-yellow">5</li>
-                    <li class="etapes bg-lgrey">Deploiement</li>
-                </ul>
+            <div class="mt-5 bg-lgrey rounded px-10">
+                <div class="w-3/4 m-auto">
+                    <h3 class="categorie">Les étapes</h3>
+                </div>
+            </div>
+
+            <div class="mt-5 bg-lgrey rounded px-10">
+                <div class="w-3/4 m-auto">
+                    <h3 class="categorie">Les types de sites</h3>
+                </div>
             </div>
 
         </div>

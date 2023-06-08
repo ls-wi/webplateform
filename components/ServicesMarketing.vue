@@ -1,17 +1,17 @@
 <template>
 
     <div class="m-auto font-zilla bg-lgrey mt-10 rounded p-10">
-        <p class="text-center bg-yellow md:w-2/6 m-auto p-1 text-4xl font-zilla mb-4">Nos services Marketing Digital</p>
+        <h2 class="text-center bg-yellow md:w-2/6 m-auto p-1 text-4xl font-zilla mb-4">Nos services Marketing Digital</h2>
         <div class="md:w-3/4 m-auto">
 
             <div class="">
-                <p class="categorie">Design</p>
+                <h3 class="categorie">Design</h3>
                 <ServiceCard :title="Crea.title" :text="Crea.text"/>
                 <ServiceCard :title="Id.title" :text="Id.text"/>
             </div>
 
             <div class="">
-                <p class="categorie">Stratégie</p>
+                <h3 class="categorie">Stratégie</h3>
                 <ServiceCard :title="Seo.title" :text="Seo.text"/>
                 <ServiceCard :title="Bench.title" :text="Bench.text"/>
             </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="lg:h-screen lg:grid lg:grid-cols-1">
+    <div class="lg:grid lg:grid-cols-1">
       <Header/>
       <Banner/>
       <Presentation id="pres"/>

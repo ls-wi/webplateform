@@ -11,7 +11,7 @@
 .logo{
     @apply 
 
-    max-h-44
+    max-h-36
     m-auto
     mb-8
 }
@@ -45,11 +45,9 @@
 .sections{
     @apply 
     
-    static 
-    bg-lgrey
+    static
     rounded
 
-    w-auto 
     lg:m-5
     mr-0
     p-2
@@ -66,8 +64,7 @@
 .link{
     @apply 
     
-    mx-16 
-    text-xl 
+    mx-10  
     hover:text-[#FBB811] 
     duration-500 
     pb-5 
@@ -134,7 +131,7 @@
     text-5xl
     my-10
     border-b-2 border-dgrey
-    p-3
+    py-3
 
 
 }
