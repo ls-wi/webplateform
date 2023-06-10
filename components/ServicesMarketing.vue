@@ -5,17 +5,17 @@
         <div class="md:w-3/4 m-auto">
 
             <div class="">
-                <img src="../src/crea.png" class="w-36 float-right">
-                <h3 class="categorie">Design</h3>
-                <img src="../assets/pull_jaune.jpg" class="float-left w-2/5 mr-5 mt-5 rounded">
+                <img src="../src/crea.png" class="w-24 md:w-36 float-right">
+                <h3 class="categorie md:w-10/12 w-2/3">Design</h3>
+                <img src="../assets/pull_jaune.jpg" class="lg:float-left lg:w-2/5 lg:mr-5 mt-5 rounded">
                 <ServiceCard :title="Crea.title" :text="Crea.text"/>
                 <ServiceCard :title="Id.title" :text="Id.text"/>
             </div>
 
             <div class="">
-                <img src="../src/marketing.png" class="w-36 float-right">
-                <h3 class="categorie">Stratégie</h3>
-                <img src="../assets/group.jpg" class="float-right w-2/5 ml-5 mt-5 rounded">
+                <img src="../src/marketing.png" class="w-24 md:w-36 float-right">
+                <h3 class="categorie md:w-10/12 w-2/3">Stratégie</h3>
+                <img src="../assets/group.jpg" class="lg:float-right lg:w-2/5 lg:ml-5 mt-5 rounded">
                 <ServiceCard :title="Seo.title" :text="Seo.text"/>
                 <ServiceCard :title="Bench.title" :text="Bench.text"/>
             </div>
