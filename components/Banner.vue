@@ -1,5 +1,5 @@
 <template>
-    <div class="banner">
+    <div class="banner border-b-4 border-yellow">
         <TypeEffect class="bannerText" :words="words"/>
     </div>
 </template>

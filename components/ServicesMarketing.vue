@@ -5,13 +5,17 @@
         <div class="md:w-3/4 m-auto">
 
             <div class="">
+                <img src="../src/crea.png" class="w-36 float-right">
                 <h3 class="categorie">Design</h3>
+                <img src="../assets/pull_jaune.jpg" class="float-left w-2/5 mr-5 mt-5 rounded">
                 <ServiceCard :title="Crea.title" :text="Crea.text"/>
                 <ServiceCard :title="Id.title" :text="Id.text"/>
             </div>
 
             <div class="">
+                <img src="../src/marketing.png" class="w-36 float-right">
                 <h3 class="categorie">Stratégie</h3>
+                <img src="../assets/group.jpg" class="float-right w-2/5 ml-5 mt-5 rounded">
                 <ServiceCard :title="Seo.title" :text="Seo.text"/>
                 <ServiceCard :title="Bench.title" :text="Bench.text"/>
             </div>

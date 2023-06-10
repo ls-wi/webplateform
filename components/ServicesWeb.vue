@@ -14,6 +14,14 @@
             <div class="mt-5 bg-lgrey rounded px-10">
                 <div class="w-3/4 m-auto">
                     <h3 class="categorie">Les étapes</h3>
+
+                    <div class="h-28 grid grid-cols-3">
+                        <div class="border p-10 mx-5">en </div>
+                        <div class="border p-10 mx-5">s </div>
+                        <div class="border p-10 mx-5">pri </div>
+                    </div>
+
+
                 </div>
             </div>
 
