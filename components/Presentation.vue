@@ -1,8 +1,8 @@
 <template>
 
-    <div class="bg-lgrey">
-        <h1 class="font-zilla text-center text-4xl mt-10 w-1/2 m-auto bg-yellow">En avant vers la conquête du trésor numérique !</h1>
-        <p class=" px-6 lg:px-64 text-center lg:text-lg pt-10 pb-20">
+    <div class="bg-lgrey pt-10 md:pt-0">
+        <h1 class="font-zilla text-center text-4xl md:mt-10 w-1/2 m-auto bg-yellow">En avant vers la conquête du trésor numérique !</h1>
+        <p class=" px-6 lg:px-64 text-center text-lg pt-10 pb-20">
        
             Nous sommes Web Treasure, une agence digitale basée à Paris. 
             Notre mission est de vous fournir tous les outils nécessaires pour naviguer vers votre trésor : la réussite de votre projet digital. 
