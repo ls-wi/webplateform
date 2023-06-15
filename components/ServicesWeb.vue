@@ -28,6 +28,7 @@
             <div class="mt-5 bg-lgrey rounded px-10">
                 <div class="md:w-3/4 m-auto">
                     <h3 class="categorie">Les types de sites</h3>
+                    <Slider></Slider>
                 </div>
             </div>
 
@@ -37,7 +38,9 @@
 </template>
 
 <script>
+import Slider from './Slider.vue';
 export default{
-    name:'ServicesWeb'
+    name: "ServicesWeb",
+    components: { Slider }
 }
 </script>
