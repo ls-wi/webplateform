@@ -11,14 +11,12 @@
                 </div>
             </div>
 
-            <div class="mt-5 bg-lgrey rounded px-10">
+            <div class="mt-5 bg-white rounded px-10">
                 <div class="md:w-3/4 m-auto">
                     <h3 class="categorie">Les étapes</h3>
 
-                    <div class="h-28 grid grid-cols-3">
-                        <div class="border p-10 mx-5">en </div>
-                        <div class="border p-10 mx-5">s </div>
-                        <div class="border p-10 mx-5">pri </div>
+                    <div class="w-9/12 m-auto">
+                        <img src="../src/etapes.png" alt="">
                     </div>
 
 
@@ -26,8 +24,8 @@
             </div>
 
             <div class="mt-5 bg-lgrey rounded px-10">
-                <div class="md:w-3/4 m-auto">
-                    <h3 class="categorie">Les types de sites</h3>
+                <div class=" m-auto">
+                    <h3 class="categorie md:w-3/4 m-auto">Les types de sites</h3>
                     <Slider></Slider>
                 </div>
             </div>
