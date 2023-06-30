@@ -15,6 +15,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@egjs/flicking-plugins": "^4.7.0",
     "@egjs/vue-flicking": "^4.10.7",
     "@vue/composition-api": "^1.7.1",
     "core-js": "^3.19.3",

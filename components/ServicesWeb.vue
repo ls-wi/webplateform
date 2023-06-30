@@ -15,7 +15,7 @@
                 <div class="md:w-3/4 m-auto">
                     <h3 class="categorie">Les étapes</h3>
 
-                    <div class="w-9/12 m-auto">
+                    <div class="m-auto">
                         <img src="../src/etapes.png" alt="">
                     </div>
 
