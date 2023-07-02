@@ -37,7 +37,7 @@ export default{
         return{
             Seo: {title:"SEO et Réferencement Naturel", text:"Le SEO et le référencement naturel sont clés pour être visible sur les moteurs de recherche. En travaillant avec nous, vous pouvez être sûr que nous mettons en place une stratégie de référencement naturel efficace qui vous permettra d'atteindre vos objectifs de visibilité et de génération de leads. "},
             Bench: {title:"Benchmarking et Analyse Concurrentielle", text:"Le benchmarking et l'analyse concurrentielle sont essentiels pour comprendre comment se positionne votre entreprise sur le marché et pour déterminer les actions à mettre en place pour améliorer votre performance. Nous travaillons avec vous pour déterminer vos points forts et vos points à améliorer."},
-            Crea: {title:"Gestion et Creation de contenu", text:"Notre agence de marketing digital est experte en création et gestion de contenu. Nous vous accompagnons pour développer une stratégie de contenu efficace et engageante, qui vous permettra de captiver votre audience et de vous démarquer de vos concurrents."},
+            Crea: {title:"Gestion et Création de contenu", text:"Notre agence de marketing digital est experte en création et gestion de contenu. Nous vous accompagnons pour développer une stratégie de contenu efficace et engageante, qui vous permettra de captiver votre audience et de vous démarquer de vos concurrents."},
             Id: {title:"Création d'Identité Visuelle", text:"Nous sommes passionnés par l'aide que nous apportons aux entreprises pour développer leur image de marque. Nous travaillons avec vous pour créer une identité visuelle cohérente et impactante qui reflète votre entreprise de manière professionnelle et attrayante. "},
         }
     }

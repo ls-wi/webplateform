@@ -16,9 +16,9 @@
                     <h3 class="categorie">Les étapes</h3>
 
                     <div class="m-auto ">
-                        <img src="../src/etapes.png" alt="" class="lg:block hidden">
-                        <img src="../src/etapes-chemin.png" alt="" class="lg:hidden block">
-                        <img src="../src/etapes-titres.png" alt="" class="lg:hidden block">
+                        <img src="../src/STEP-FULL.png" alt="" class="lg:block hidden">
+                        <img src="../src/WAy.png" alt="" class="lg:hidden block">
+                        <img src="../src/STEP-ONLY.png" alt="" class="lg:hidden block">
                     </div>
 
 
