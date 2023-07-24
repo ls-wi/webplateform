@@ -11,10 +11,10 @@
 
 <script>
 import { Flicking } from "@egjs/vue-flicking";
-/*
+
 import { Pagination } from "@egjs/flicking-plugins";
 import "@egjs/flicking-plugins/dist/pagination.css";
-*/
+
 import SiteType from "./SiteType.vue";
 import SiteVitrine from "./SiteVitrine.vue";
 import SiteRefonte from "./SiteRefonte.vue";
@@ -29,7 +29,7 @@ export default {
     },
     data(){
         return {
-//            plugins: [new Pagination({ type: 'bullet' })]
+            plugins: [new Pagination({ type: 'bullet' })]
         }
     }
 }
