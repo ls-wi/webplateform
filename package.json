@@ -1,41 +1,20 @@
 {
-  "name": "webplateform",
-  "version": "1.0.0",
+  "name": "web-treasure",
+  "version": "0.0.0",
   "private": true,
-  "engines": {
-    "node": "v14.18.0"
-  },
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "predeploy": "nuxt generate",
-    "deploy": "gh-pages -d docs",
-    "test": "jest"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@egjs/flicking-plugins": "^4.7.0",
-    "@egjs/vue-flicking": "^4.10.7",
-    "@vue/composition-api": "^1.7.1",
-    "core-js": "^3.19.3",
-    "nuxt": "^2.17.1",
-    "vue": "^2.7.14",
-    "vue-server-renderer": "^2.6.14",
-    "vue-template-compiler": "^2.6.14",
-    "webpack": "^4.46.0"
+    "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@nuxt/postcss8": "^1.1.3",
-    "@nuxtjs/tailwindcss": "^4.2.1",
-    "@vue/test-utils": "^1.3.0",
-    "autoprefixer": "^10.4.13",
-    "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^27.4.4",
-    "gh-pages": "^4.0.0",
-    "jest": "^27.4.4",
-    "postcss": "^8.4.18",
-    "tailwindcss": "^3.2.1",
-    "vue-jest": "^3.0.4"
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.3.9"
   }
 }
