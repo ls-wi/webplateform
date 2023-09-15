@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "ZILLA";
+    src: url("../../src/fonts/zilla/ZillaSlab-Light.ttf");
+  }
+
+/* HEADER */
+.logo{
+    @apply 
+
+    max-h-36
+    m-auto
+    mb-8
+}
+
+.nav{
+    @apply 
+
+    p-5 
+    justify-between
+    
+    lg:flex 
+
+}
+
+.contact{
+    @apply 
+
+    bg-[#FBB811] 
+    duration-500 
+    px-6 py-2 
+    mx-16 
+    rounded 
+    text-center
+    font-zilla
+    text-lg
+    
+
+    hover:bg-[#D8DADE]
+}
+
+.sections{
+    @apply 
+    
+    static
+    rounded
+
+    lg:m-5
+    mr-0
+    p-2
+
+    grid-cols-1
+    font-zilla
+    font-bold
+
+    lg:items-center 
+    lg:flex 
+
+}
+
+.link{
+    @apply 
+    
+    mx-10  
+    hover:text-[#FBB811] 
+    duration-500 
+    pb-5 
+    text-center
+
+    lg:pb-0
+
+}
+
+/*BANNER*/
+
+.banner{
+    @apply 
+    
+    h-auto 
+    
+    bg-dgrey 
+    
+    duration-1000
+}
+
+.bannerText{
+    @apply 
+
+    lg:text-8xl 
+    md:text-5xl 
+    text-3xl 
+    
+    overflow-auto 
+
+    pb-16 
+    pt-12 
+    m-auto 
+    my-auto
+
+    text-center 
+    font-mono 
+
+    duration-1000 
+    text-yellow
+}
+
+/* web dev steps */
+
+.etapes {
+    @apply
+
+    lg:text-3xl
+    md:text-2xl
+    text-xl 
+    font-bold
+    m-auto
+    even:hover:-translate-x-3.5
+    odd:hover:translate-x-3.5
+    duration-500
+    p-5
+}
+
+/*Services Marketing*/
+
+.categorie{
+    @apply
+
+    text-5xl
+    my-10
+    border-b-2 border-dgrey
+    py-3
+
+
+}
+
+.serviceTitre{
+    @apply
+
+    text-center
+    text-3xl
+    my-5
+    bg-dgrey
+    text-white
+    rounded
+
+}
+
+.serviceTexte{
+    @apply
+
+    text-center
+    text-xl
+    duration-1000
+}
+
+.serviceContainer {
+    @apply
+
+    text-center
+
+}
+
+/*scroll animations*/
+
