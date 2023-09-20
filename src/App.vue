@@ -2,6 +2,7 @@
   <div>
     <div class="lg:grid lg:grid-cols-1">
       <Header/>
+      <Banner/>
       <Presentation id="pres"/>
     </div>
     <ServicesWeb id="servweb"/>
@@ -14,6 +15,7 @@
 
 <script>
 import Header from './components/Header.vue'
+import Banner from './components/Banner.vue'
 import Presentation from './components/Presentation.vue';
 import Contact from './components/Contact.vue';
 import Crew from './components/Crew.vue';
@@ -31,6 +33,7 @@ export default {
     Footer,
     ServicesMarketing,
     ServicesWeb,
+    Banner,
   }
 }
 </script>
