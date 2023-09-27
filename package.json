@@ -2,6 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
+    "start": "node ./src/main.js",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
