@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "nuxt-app",
   "private": true,
   "scripts": {
