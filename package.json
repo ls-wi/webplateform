@@ -3,19 +3,20 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "start": "node ./src/main.js",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start",
+    "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.1",
     "autoprefixer": "^10.4.15",
-    "nuxt": "^3.6.5",
+    "nuxt": "^3.7.4",
     "postcss": "^8.4.30",
     "tailwindcss": "^3.3.3"
   },
