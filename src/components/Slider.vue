@@ -1,13 +1,9 @@
 
 <template>
     <div class="pb-10">
-        <Flicking :options="{ circular: true }" :plugins="plugins">
+        <Flicking :options="{ circular: true}" :plugins="plugins ">
             <SiteVitrine class="mb-16 border-dgrey border-2"></SiteVitrine>
-            <SiteRefonte class="mb-16 border-dgrey border-2"></SiteRefonte>
             <SiteType class="mb-16 border-dgrey border-2"></SiteType>
-            <template #viewport>
-              <div class="flicking-pagination"></div>
-            </template>
         </Flicking>
     </div>
 </template>
@@ -32,10 +28,5 @@ export default {
     SiteVitrine,
     SiteRefonte
     },
-    data(){
-        return {
-            plugins: [new Pagination({ type: 'bullet' })]
-        }
-    }
 }
 </script>
