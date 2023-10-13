@@ -16,8 +16,6 @@ import 'path';
 import 'unhead';
 import '@unhead/shared';
 import 'vue/server-renderer';
-import '@egjs/vue3-flicking';
-import '@egjs/flicking-plugins';
 
 const components_islands = {};
 const islandComponents = /* @__PURE__ */ Object.freeze({
@@ -44,4 +42,4 @@ const islandRenderer = /* @__PURE__ */ defineComponent({
 });
 
 export { islandRenderer as default };
-//# sourceMappingURL=island-renderer-67a9f2d4.mjs.map
+//# sourceMappingURL=island-renderer-309840cb.mjs.map

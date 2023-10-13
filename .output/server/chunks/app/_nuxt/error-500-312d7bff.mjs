@@ -17,8 +17,6 @@ import 'node:path';
 import 'fs';
 import 'path';
 import 'unhead';
-import '@egjs/vue3-flicking';
-import '@egjs/flicking-plugins';
 
 const _sfc_main = {
   __name: "error-500",
@@ -70,4 +68,4 @@ _sfc_main.setup = (props, ctx) => {
 const error500 = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-df79c84d"]]);
 
 export { error500 as default };
-//# sourceMappingURL=error-500-649ed79d.mjs.map
+//# sourceMappingURL=error-500-312d7bff.mjs.map

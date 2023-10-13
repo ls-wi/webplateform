@@ -17,8 +17,6 @@ import 'fs';
 import 'path';
 import 'unhead';
 import '@unhead/shared';
-import '@egjs/vue3-flicking';
-import '@egjs/flicking-plugins';
 
 const firstNonUndefined = (...args) => args.find((arg) => arg !== void 0);
 const DEFAULT_EXTERNAL_REL_ATTRIBUTE = "noopener noreferrer";
@@ -285,4 +283,4 @@ _sfc_main.setup = (props, ctx) => {
 const error404 = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ccd3db62"]]);
 
 export { error404 as default };
-//# sourceMappingURL=error-404-9b60c7e4.mjs.map
+//# sourceMappingURL=error-404-a48adc5d.mjs.map

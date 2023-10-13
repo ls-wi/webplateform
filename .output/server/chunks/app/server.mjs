@@ -1,10 +1,8 @@
-import { version, unref, inject, hasInjectionContext, getCurrentInstance, useSSRContext, createApp, reactive, provide, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, toRef, h, isReadonly, mergeProps, resolveComponent, withCtx, defineAsyncComponent, isRef, isShallow, isReactive, toRaw } from 'vue';
+import { version, unref, inject, hasInjectionContext, getCurrentInstance, useSSRContext, createApp, reactive, provide, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, toRef, h, isReadonly, mergeProps, resolveComponent, defineAsyncComponent, isRef, isShallow, isReactive, toRaw } from 'vue';
 import { f as useRuntimeConfig$1, m as withQuery, n as hasProtocol, p as parseURL, o as isScriptProtocol, j as joinURL, i as createError$1, $ as $fetch, q as sanitizeStatusCode, r as createHooks, t as isEqual, v as stringifyParsedURL, x as stringifyQuery, y as parseQuery } from '../nitro/node-server.mjs';
 import { getActiveHead } from 'unhead';
 import { defineHeadPlugin } from '@unhead/shared';
 import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode, ssrRenderAttrs, ssrRenderAttr, ssrInterpolate } from 'vue/server-renderer';
-import Flicking from '@egjs/vue3-flicking';
-import { Pagination } from '@egjs/flicking-plugins';
 import 'node:http';
 import 'node:https';
 import 'node:zlib';
@@ -786,7 +784,7 @@ const _sfc_main$a = {
   }
 };
 function _sfc_ssrRender$8(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${ssrRenderAttrs(mergeProps({ class: "ml-10 rounded" }, _attrs))}><div class="grid md:grid-cols-2 lg:max-w-5xl md:max-w-2xl max-w-xs"><div class=""><h4 class="md:text-3xl text-2xl text-white bg-dgrey border-b-4 border-yellow p-5 text-center md:text-left">Créez un <span class="bg-yellow text-black px-1">site vitrine</span> pour donner une image et une <span class="bg-yellow text-black px-1">visibilité</span> à votre entreprise ! </h4><p class="p-5 md:text-xl text-lg md:mt-10 md:mr-16 text-justify md:text-left"> Web Treasure est votre partenaire pour la création de votre site vitrine. Nous vous accompagnons tout au long du processus, de la création des contenus à la mise en page, afin de vous démarquer dans votre secteur d&#39;activités. Faites-nous confiance pour façonner une image digitale qui vous met en valeur et attire l&#39;attention. Avec notre expertise et notre engagement, nous vous aiderons à créer une présence en ligne remarquable qui vous démarquera de vos concurrents. </p></div><img${ssrRenderAttr("src", _imports_0$3)} class="w-36 md:absolute self-center justify-self-center"><img${ssrRenderAttr("src", _imports_1$3)} class="self-center hidden md:block"></div></div>`);
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "rounded" }, _attrs))}><div class="grid md:grid-cols-2 lg:max-w-5xl md:max-w-2xl max-w-xs"><div class=""><h4 class="md:text-3xl text-2xl text-white bg-dgrey border-b-4 border-yellow p-5 text-center md:text-left">Créez un <span class="bg-yellow text-black px-1">site</span> pour donner une image et une <span class="bg-yellow text-black px-1">visibilité</span> à votre entreprise ! </h4><p class="p-5 md:text-xl text-lg md:mt-10 md:mr-16 text-justify md:text-left"> Web Treasure est votre partenaire pour la création de votre site vitrine. Nous vous accompagnons tout au long du processus, de la création des contenus à la mise en page, afin de vous démarquer dans votre secteur d&#39;activités. Faites-nous confiance pour façonner une image digitale qui vous met en valeur et attire l&#39;attention. Avec notre expertise et notre engagement, nous vous aiderons à créer une présence en ligne remarquable qui vous démarquera de vos concurrents. </p></div><img${ssrRenderAttr("src", _imports_0$3)} class="w-36 md:absolute self-center justify-self-center"><img${ssrRenderAttr("src", _imports_1$3)} class="self-center hidden md:block"></div></div>`);
 }
 const _sfc_setup$a = _sfc_main$a.setup;
 _sfc_main$a.setup = (props, ctx) => {
@@ -816,51 +814,15 @@ const SiteRefonte = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["ssrRender", _sfc
 const _sfc_main$8 = {
   name: "Slider",
   components: {
-    Flicking,
     SiteType,
     SiteVitrine,
     SiteRefonte
-  },
-  data() {
-    return {
-      plugins: [new Pagination({ type: "bullet" })]
-    };
   }
 };
 function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_Flicking = resolveComponent("Flicking");
   const _component_SiteVitrine = resolveComponent("SiteVitrine");
-  const _component_SiteRefonte = resolveComponent("SiteRefonte");
-  const _component_SiteType = resolveComponent("SiteType");
   _push(`<div${ssrRenderAttrs(mergeProps({ class: "pb-10" }, _attrs))}>`);
-  _push(ssrRenderComponent(_component_Flicking, {
-    options: { circular: true },
-    plugins: $data.plugins
-  }, {
-    viewport: withCtx((_, _push2, _parent2, _scopeId) => {
-      if (_push2) {
-        _push2(`<div class="flicking-pagination"${_scopeId}></div>`);
-      } else {
-        return [
-          createVNode("div", { class: "flicking-pagination" })
-        ];
-      }
-    }),
-    default: withCtx((_, _push2, _parent2, _scopeId) => {
-      if (_push2) {
-        _push2(ssrRenderComponent(_component_SiteVitrine, { class: "mb-16 border-dgrey border-2" }, null, _parent2, _scopeId));
-        _push2(ssrRenderComponent(_component_SiteRefonte, { class: "mb-16 border-dgrey border-2" }, null, _parent2, _scopeId));
-        _push2(ssrRenderComponent(_component_SiteType, { class: "mb-16 border-dgrey border-2" }, null, _parent2, _scopeId));
-      } else {
-        return [
-          createVNode(_component_SiteVitrine, { class: "mb-16 border-dgrey border-2" }),
-          createVNode(_component_SiteRefonte, { class: "mb-16 border-dgrey border-2" }),
-          createVNode(_component_SiteType, { class: "mb-16 border-dgrey border-2" })
-        ];
-      }
-    }),
-    _: 1
-  }, _parent));
+  _push(ssrRenderComponent(_component_SiteVitrine, { class: "border-dgrey border-2" }, null, _parent));
   _push(`</div>`);
 }
 const _sfc_setup$8 = _sfc_main$8.setup;
@@ -879,8 +841,8 @@ const _sfc_main$7 = {
 };
 function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_Slider = resolveComponent("Slider");
-  _push(`<div${ssrRenderAttrs(mergeProps({ class: "py-10 m-auto my-10 font-zilla" }, _attrs))}><h2 class="text-center bg-yellow w-min m-auto p-1 text-4xl mb-10">Développement Web</h2><div class=""><div class="bg-lgrey rounded px-10"><div class="md:w-3/4 m-auto"><h3 class="categorie">Création de Sites Web</h3><p class="text-lg text-center p-5 font-sans">Avec notre équipe expérimentée de développeurs et de designers, nous créons des <span class="bg-yellow p-1">sites web professionnels, attractifs et adaptés à vos objectifs commerciaux</span>. Chaque entreprise est unique, c&#39;est pourquoi nous offrons des solutions sur mesure pour répondre à vos besoins spécifiques. Faites confiance à Web Treasure pour créer un site web efficace qui vous permettra de <span class="bg-yellow p-1">développer votre activité en ligne</span>. Contactez-nous dès maintenant pour en savoir plus sur nos services et pour discuter de votre projet.</p></div></div><div class="mt-5 bg-white rounded px-10"><div class="md:w-3/4 m-auto"><h3 class="categorie">Les étapes</h3><div class="m-auto"><img${ssrRenderAttr("src", _imports_0$1)} alt="" class="lg:block hidden"><img${ssrRenderAttr("src", _imports_1$1)} alt="" class="lg:hidden block"><img${ssrRenderAttr("src", _imports_2$1)} alt="" class="lg:hidden block"></div></div></div><div class="mt-5 bg-lgrey rounded px-10"><div class="m-auto"><h3 class="categorie md:w-3/4 m-auto">Les types de sites</h3>`);
-  _push(ssrRenderComponent(_component_Slider, null, null, _parent));
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "py-10 m-auto my-10 font-zilla" }, _attrs))}><h2 class="text-center bg-yellow w-min m-auto p-1 text-4xl mb-10">Développement Web</h2><div class=""><div class="bg-lgrey rounded px-10"><div class="md:w-3/4 m-auto"><h3 class="categorie">Création de Sites Web</h3><p class="text-lg text-center p-5 font-sans">Avec notre équipe expérimentée de développeurs et de designers, nous créons des <span class="bg-yellow p-1">sites web professionnels, attractifs et adaptés à vos objectifs commerciaux</span>. Chaque entreprise est unique, c&#39;est pourquoi nous offrons des solutions sur mesure pour répondre à vos besoins spécifiques. Faites confiance à Web Treasure pour créer un site web efficace qui vous permettra de <span class="bg-yellow p-1">développer votre activité en ligne</span>. Contactez-nous dès maintenant pour en savoir plus sur nos services et pour discuter de votre projet.</p></div></div><div class="mt-5 bg-white rounded px-10"><div class="md:w-3/4 m-auto"><h3 class="categorie">Les étapes</h3><div class="m-auto"><img${ssrRenderAttr("src", _imports_0$1)} alt="" class="lg:block hidden"><img${ssrRenderAttr("src", _imports_1$1)} alt="" class="lg:hidden block"><img${ssrRenderAttr("src", _imports_2$1)} alt="" class="lg:hidden block"></div></div></div><div class="mt-5 bg-lgrey rounded px-10"><div class="m-auto"><h3 class="categorie md:w-3/4 m-auto">Crééz le votre</h3>`);
+  _push(ssrRenderComponent(_component_Slider, { class: "md:w-3/4 m-auto" }, null, _parent));
   _push(`</div></div></div></div>`);
 }
 const _sfc_setup$7 = _sfc_main$7.setup;
@@ -1106,8 +1068,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-404-9b60c7e4.mjs').then((r) => r.default || r));
-    const _Error = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-500-649ed79d.mjs').then((r) => r.default || r));
+    const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-404-a48adc5d.mjs').then((r) => r.default || r));
+    const _Error = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-500-312d7bff.mjs').then((r) => r.default || r));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));
@@ -1125,7 +1087,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const IslandRenderer = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/island-renderer-67a9f2d4.mjs').then((r) => r.default || r));
+    const IslandRenderer = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/island-renderer-309840cb.mjs').then((r) => r.default || r));
     const nuxtApp = /* @__PURE__ */ useNuxtApp();
     nuxtApp.deferHydration();
     nuxtApp.ssrContext.url;

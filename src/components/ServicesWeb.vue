@@ -27,8 +27,8 @@
 
             <div class="mt-5 bg-lgrey rounded px-10">
                 <div class=" m-auto">
-                    <h3 class="categorie md:w-3/4 m-auto">Les types de sites</h3>
-                    <Slider></Slider>
+                    <h3 class="categorie md:w-3/4 m-auto">Crééz le votre</h3>
+                    <Slider class="md:w-3/4 m-auto"></Slider>
                 </div>
             </div>
 

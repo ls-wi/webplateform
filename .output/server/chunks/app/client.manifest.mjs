@@ -1,10 +1,10 @@
 const client_manifest = {
-  "_vue.f36acd1f.ec90d969.js": {
+  "_vue.f36acd1f.5fabd7f0.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "vue.f36acd1f.ec90d969.js",
+    "file": "vue.f36acd1f.5fabd7f0.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -22,10 +22,10 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-404.b501f001.js",
+    "file": "error-404.1776bf4d.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_vue.f36acd1f.ec90d969.js"
+      "_vue.f36acd1f.5fabd7f0.js"
     ],
     "isDynamicEntry": true,
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"
@@ -49,9 +49,9 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-500.8c6a1e6f.js",
+    "file": "error-500.94ea8f53.js",
     "imports": [
-      "_vue.f36acd1f.ec90d969.js",
+      "_vue.f36acd1f.5fabd7f0.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -62,13 +62,6 @@ const client_manifest = {
     "resourceType": "style",
     "prefetch": true,
     "preload": true
-  },
-  "node_modules/nuxt/dist/app/entry.css": {
-    "resourceType": "style",
-    "prefetch": true,
-    "preload": true,
-    "file": "entry.7455d6fc.css",
-    "src": "node_modules/nuxt/dist/app/entry.css"
   },
   "node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
@@ -94,23 +87,14 @@ const client_manifest = {
       "marketing.866abf8d.png",
       "group.add810e5.jpg"
     ],
-    "css": [
-      "entry.7455d6fc.css"
-    ],
     "dynamicImports": [
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.94b403e3.js",
+    "file": "entry.1858bfb4.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js",
     "_globalCSS": true
-  },
-  "entry.7455d6fc.css": {
-    "file": "entry.7455d6fc.css",
-    "resourceType": "style",
-    "prefetch": true,
-    "preload": true
   },
   "logo.acda6119.jpg": {
     "file": "logo.acda6119.jpg",
